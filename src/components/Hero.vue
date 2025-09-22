@@ -13,8 +13,8 @@ const { element: heroRef, isVisible } = useReveal();
       isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
     ]"
   >
-    <div class="absolute inset-x-10 -top-10 -z-10 h-60 rounded-full bg-purple/20 blur-3xl"></div>
-    <span class="inline-flex max-w-max items-center gap-2 rounded-full bg-pink/30 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-purple">
+    <div class="absolute inset-x-10 -top-10 -z-10 h-60 rounded-full bg-purple/50 blur-3xl"></div>
+    <span class="inline-flex max-w-max items-center gap-2 rounded-full bg-pink/ px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-purple">
       Freelancing Studio
     </span>
     <div class="space-y-6">
@@ -31,10 +31,10 @@ const { element: heroRef, isVisible } = useReveal();
           target="_blank"
           rel="noreferrer"
         >
-          Conoce mi espacio freelance
+          Contáctame
         </a>
         <span class="text-sm font-medium text-green">
-          +5 años creando productos digitales y experiencias de marca.
+          Creando productos digitales y experiencias de marca.
         </span>
       </div>
     </div>
