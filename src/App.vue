@@ -12,9 +12,9 @@ import Services from './components/Services.vue';
     <NavBar />
     <main class="mx-auto flex w-full flex-col gap-4 pb-20">
       <Hero />
-      <Services />
-      <Projects />
       <Blog />
+      <Services />
+     <!-- <Projects /> -->
       <CTA />
     </main>
   </div>
