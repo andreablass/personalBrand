@@ -25,13 +25,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # 4️⃣ Crear archivo CNAME con tu subdominio
-      - name: Set CNAME for custom domain
-        run: echo "andyesdev.andreablass.com" > dist/CNAME
-
-      # 5️⃣ Construir proyecto Vite
+      # 4 Construir proyecto Vite
       - name: Build project
         run: npm run build
+
+      # 5 Crear archivo CNAME con tu subdominio
+      - name: Set CNAME for custom domain
+        run: echo "andyesdev.andreablass.com" > dist/CNAME
 
       # 6️⃣ Publicar en GitHub Pages
       - name: Deploy to GitHub Pages
