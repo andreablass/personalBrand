@@ -4,5 +4,5 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/',   // <— importante: raíz absoluta
+  base: '/andyesdev/',   
 })
