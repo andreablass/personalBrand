@@ -16,7 +16,7 @@ const { element: ctaRef, isVisible } = useReveal();
       <div class="absolute -top-16 left-1/2 h-48 w-48 -translate-x-1/2 rounded-full bg-pink/40 blur-3xl"></div>
       <div class="relative space-y-4">
         <h2 class="text-3xl font-semibold text-purple sm:text-4xl">
-          ¿Listas para crear algo brillante?
+          ¿Listos para crear algo brillante?
         </h2>
         <p class="mx-auto max-w-2xl text-base text-[color:var(--color-ink-soft)]">
           Escríbeme y conversemos sobre tu proyecto. Me encantará ayudarte a diseñar una presencia digital auténtica y enfocada en resultados.
@@ -25,7 +25,7 @@ const { element: ctaRef, isVisible } = useReveal();
           href="mailto:hola@andreablass.com"
           class="inline-flex items-center justify-center gap-2 rounded-full bg-green px-6 py-3 text-sm font-semibold text-white transition-transform hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-green/70 focus-visible:ring-offset-2"
         >
-          Escribir a hola@andreablass.com
+          Escribir a hello@andreablass.com
         </a>
       </div>
     </div>
